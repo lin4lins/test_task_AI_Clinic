@@ -9,8 +9,3 @@ repos:
     hooks:
       - id: flake8
         args: [--max-line-length=120]
-  - repo: https://github.com/pre-commit/mirrors-isort
-    rev: v5.10.1
-    hooks:
-      - id: isort
-        args: [--profile=black, -m=4, -l=120]
